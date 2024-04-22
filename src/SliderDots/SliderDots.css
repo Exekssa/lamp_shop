@@ -1,0 +1,18 @@
+.sliderDotsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sliderDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b2e9d1;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.sliderDot.active {
+  background-color: #64b977;
+}

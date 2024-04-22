@@ -1,0 +1,74 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  border-radius: 16px;
+  background: #f4fcf8;
+}
+
+.textContainer {
+  width: 70%;
+  padding: 60px 0 60px 40px;
+}
+
+.mapContainer {
+  border-radius: 16px;
+  width: 50%;
+  height: 100%;
+}
+
+.contactsItem {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.contactsItem a {
+  color: #64b977;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contactsItems {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contactsContainer {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    width: auto;
+    padding: 60px 40px 40px 40px;
+    gap: 0;
+  }
+
+  .mapContainer {
+    border-radius: 0 0 16px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .textContainer {
+    padding: 40px;
+  }
+
+  .contactsContainer {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .textContainer {
+    padding: 30px 20px;
+    border-radius: 0;
+  }
+
+  .contactsContainer {
+    border-radius: 0;
+  }
+}

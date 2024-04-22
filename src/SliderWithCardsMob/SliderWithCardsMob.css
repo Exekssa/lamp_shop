@@ -1,0 +1,23 @@
+.sliderContainerGroupMob {
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .sliderContainerGroupMob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .leftButton {
+    position: absolute;
+    left: 10px;
+    top: 250px;
+  }
+
+  .rightButton {
+    position: absolute;
+    right: 10px;
+    top: 250px;
+  }
+}

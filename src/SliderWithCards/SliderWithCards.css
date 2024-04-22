@@ -1,0 +1,37 @@
+.sliderContainerGroup {
+  position: relative;
+}
+
+.sliderButton {
+  width: 50px;
+  height: 50px;
+  background: #22ff9b;
+  border-radius: 16px;
+  border: none;
+  color: #010602;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.sliderButton:hover {
+  background: #010602;
+  color: #22ff9b;
+}
+
+.leftButton {
+  position: absolute;
+  left: -25px;
+  top: 250px;
+}
+
+.rightButton {
+  position: absolute;
+  right: -25px;
+  top: 250px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderContainerGroup {
+    display: none;
+  }
+}

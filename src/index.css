@@ -1,0 +1,100 @@
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #010602;
+  background: #d6f6e8;
+}
+
+.blockMarginTop {
+  margin-top: 5vh;
+}
+
+.title {
+  font-size: 42px;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subTitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #64b977;
+}
+
+.priceText {
+  font-size: 32px;
+}
+
+.smallText {
+  font-size: 18px;
+}
+
+.minusButton,
+.closeCart {
+  background: #f88181;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.closeCart {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.closeCart:hover {
+  background: #ffffff;
+  color: #f88181;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 38px;
+  }
+
+  .subTitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title,
+  .priceText {
+    font-size: 30px;
+  }
+
+  .subTitle {
+    font-size: 20px;
+  }
+
+  .smallText {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+
+  .blockMarginTop {
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,16 @@
+.buttonDesign {
+  background: #22ff9b;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 0 60px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
+
+.buttonDesign:hover {
+  background: #010602;
+  color: #22ff9b;
+  border-radius: 60px 0;
+}
